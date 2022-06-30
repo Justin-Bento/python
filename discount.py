@@ -6,6 +6,8 @@
   For example, if the price is 100 and the discount is 20, the function should return 80.
 """
 
-def full_price(number):
-  print("The most common number between 1 and 10 is " + str(number))
-full_price(7)
+def full_price():
+  global total
+  total = input("What is the total for groceries amount after tax? \n")
+  print("The grand total is, " + total + "$")
+full_price()
