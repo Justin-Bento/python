@@ -11,3 +11,12 @@ def full_price():
   total = input("What is the total for groceries amount after tax? \n")
   print("The grand total is, " + total + "$")
 full_price()
+
+def sale_price():
+  sale = input("Was there any sale today? \n")
+  if sale == [True, "Yes", "yes"]:
+    discount = input("What is the discount for groceries after tax? \n")
+    print("The discount is, " +  discount + "%")
+  else:
+    print("Your total is stil " + total)
+sale_price()
