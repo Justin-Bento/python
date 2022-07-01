@@ -18,5 +18,5 @@ def sale_price():
     discount = input("What is the discount for groceries after tax? \n")
     print("The discount is, " +  discount + "%")
   else:
-    print("Your total is stil " + total)
+    print("Your total is stil " + total + "$")
 sale_price()
