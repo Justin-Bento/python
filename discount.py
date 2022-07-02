@@ -14,7 +14,7 @@ grand_total()
 
 def sale_price():
   sale = input("Was there any sale today? \n")
-  if sale == [True, "Yes", "yes"]:
+  if sale in [True, "Yes", "yes"]:
     discount = input("What is the discount for groceries after tax? \n")
     print("The discount is, " +  discount + "%")
   else:
