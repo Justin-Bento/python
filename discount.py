@@ -9,16 +9,16 @@
 def grand_total():
     global total
     total = input("What is the total for groceries amount after tax? \n")
-    print("The grand total is, " + total + "$")
+    print(f'The grand total is: {total}$')
 grand_total()
 
 def sale_price():
     sale = input("Was there any sale today? \n")
     if sale in [True, "Yes", "yes"]:
         discount = input("What is the discount for groceries after tax? \n")
-        print("The discount is, " + discount + "%")
+        print(f'The discount is: {discount}%')
         result = float(total) / float(discount)
         print(f'Your new total is: {result}$')
     else:
-        print(f'Your total is stil {total}$')
+        print(f'Your total is stil: {total}$')
 sale_price()
