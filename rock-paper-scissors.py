@@ -3,6 +3,7 @@
 - [x] Valid function: to check the validity of the move.
 - [x] Result function: to declare the winner of the round.
 - [] Scorekeeper: to keep track of the score.
+- [] Close script after completing a best of three.
 """
 
 # Imported randomint package from random module.
