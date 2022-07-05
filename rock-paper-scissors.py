@@ -8,12 +8,6 @@
 # Imported randomint package from random module.
 from random import randint
 
-# Assigned global variables to be used inside multipule functions.
-global options
-global computer
-global player
-
-
 def game_logic():
   
   # Created a list of options that a computer and user can play.
@@ -52,3 +46,7 @@ def game_logic():
       player = False
       computer = options[randint(0,2)]
 game_logic()
+
+def scorekeeper():
+  print("working")
+scorekeeper()
