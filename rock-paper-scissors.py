@@ -19,6 +19,9 @@ def game_logic():
   # Set player to False
   player = False
 
+  # Set score keeper
+  scorekeeper = 1
+
   while player == False:
   #set player to True
       # If a player option types in Rock, Paper or Scissors this logic will determin who wins or looses if a user types in anything else the loop will close.
@@ -46,7 +49,3 @@ def game_logic():
       player = False
       computer = options[randint(0,2)]
 game_logic()
-
-def scorekeeper():
-  print("working")
-scorekeeper()
