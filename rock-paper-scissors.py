@@ -1,22 +1,45 @@
 """
-- [] Random function: to generate rock, paper, or scissors. 
-- [] Valid function: to check the validity of the move.
-- [] Result function: to declare the winner of the round.
+- [x] Random function: to generate rock, paper, or scissors. 
+- [x] Valid function: to check the validity of the move.
+- [x] Result function: to declare the winner of the round.
 - [] Scorekeeper: to keep track of the score.
 """
 
-def random():
-  print("Hello from a random function")
-random()
+# Imported randomint package from random module.
+from random import randint
 
-def validate():
-  print("Hello from a validate function")
-validate()
+# Created a list of options that a computer and user can play.
+options = ["Rock", "Paper", "Scissors"]
 
-def result():
-  print("Hello from a result function")
-result()
+# Assigns a random number between 0 and 2 for the computer to play the game options.
+computer = options[randint(0,2)]
 
-def scorekeeper():
-  print("Hello from a function")
-scorekeeper()
+# Set player to False
+player = False
+
+while player == False:
+#set player to True
+    # If a player option types in Rock, Paper or Scissors this logic will determin who wins or looses if a user types in anything else the loop will close.
+    player = input("Rock, Paper, Scissors?")
+    if player == computer:
+        print("Tie!")
+    elif player == "Rock":
+        if computer == "Paper":
+            print("You lose!", computer, "covers", player)
+        else:
+            print("You win!", player, "smashes", computer)
+    elif player == "Paper":
+        if computer == "Scissors":
+            print("You lose!", computer, "cut", player)
+        else:
+            print("You win!", player, "covers", computer)
+    elif player == "Scissors":
+        if computer == "Rock":
+            print("You lose...", computer, "smashes", player)
+        else:
+            print("You win!", player, "cut", computer)
+    else:
+        print("That's not a valid play. Check your spelling!")
+        break
+    player = False
+    computer = options[randint(0,2)]
