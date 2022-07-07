@@ -1,5 +1,5 @@
 """
- - [] Create a generic greeting to welcome the customer.
+ - [x] Create a generic greeting to welcome the customer.
  - [] Make an array of items for the shop.
  - [] Wait for customer to make a decision.
  - [] Mention the price and ask how would the customer like to pay. only accept intergers or floats.
