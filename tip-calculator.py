@@ -9,3 +9,14 @@
  - [] Make a generic greeting to the customer for purchasing at store.
  - [] Exit program.
  """
+
+# imported timer module to sleep on final greeting
+import time
+
+def introduction():
+ print("Hello Welcome To Bot-World!")
+ name = input("Can I ask you for your name?")
+ print("Nice to meet you", name)
+ time.sleep(1)
+ print("Bot: What can I get for you today? ", name)
+introduction()
