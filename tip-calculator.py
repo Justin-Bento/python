@@ -95,7 +95,7 @@ def introduction():
  print("Hello Welcome To Bot-World!")
  name = input("Can I ask you for your name?")
  print("Nice to meet you", name)
- time.sleep(1)
+ time.sleep(0.400)
  print("Bot: What can I get for you today? ", name)
 introduction()
 
