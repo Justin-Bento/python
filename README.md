@@ -2,6 +2,17 @@
 
 This folder contains my learning journey in learning Python. 
 
+## Setup Guide
+
+1. Step is to install python into your system.
+2. Check the verion of python that is installed. My version is Python 3.9.13
+3. Open Termianl and navigate to the learn python folder using the command. cd
+4. To run a script, type in [ python3 file_name.py ] on one line then run the program. ( Hint: Press tab for fater completion ;) )
+5. To Exit the program incase anything goes wrong press ctrl+c and close the terminal.
+6. You can remove the folder by jumping out of the folder using $ cd .. command then type $ rm -rf ./learn_python to remove the folder from your system.
+
+If anything went wrong please let me know. I will have a detialed video soon.
+
 ## S.M.A.R.T Goals
 
 ### Specific
