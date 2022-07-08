@@ -4,14 +4,80 @@ This folder contains my learning journey in learning Python.
 
 ## Setup Guide
 
-1. Step is to install python into your system.
-2. Check the verion of python that is installed. My version is Python 3.9.13
-3. Open Termianl and navigate to the learn python folder using the command. cd
-4. To run a script, type in [ python3 file_name.py ] on one line then run the program. ( Hint: Press tab for fater completion ;) )
-5. To Exit the program incase anything goes wrong press ctrl+c and close the terminal.
-6. You can remove the folder by jumping out of the folder using $ cd .. command then type $ rm -rf ./learn_python to remove the folder from your system.
+Your first step is ensuring you have python installed on your system and check your current version. You can enter in the code below. It should look something like this.
 
-If anything went wrong please let me know. I will have a detialed video soon.
+````
+userName@user-computer learn_python % python3 --version
+Python 3.9.13
+````
+
+Your next step would be to download this project and place it in a memorable folder such as your desktop or inside your document folder.
+
+Now your file is open I want you to search for your systems terminal app and open it. Once it is open, navigate to the learn python folder using
+
+````
+  for mac or linux machines
+  cd ./learn_python. 
+  cd ./Documents/learn_python.
+  cd ./Desktop/learn_python.
+  
+  for windows machines
+  cd .\learn_python. 
+  cd .\Documents\learn_python.
+  cd .\Desktop\learn_python.
+````
+
+Now, this step is optional. But I want you to list all the files inside the learn python folder using ``ls`` cmd to find and showcase all the python scripts inside the folder like below.
+
+````
+-rw-r--r--  1 username  staff  2465 Jul  8 10:38 README.md
+drwxr-xr-x  3 username  staff    96 Jul  8 18:50 assets
+-rw-r--r--  1 username  staff  1665 Jul  4 12:10 discount.py
+-rw-r--r--  1 username  staff  1011 Jun 22 13:09 fizzbuzz.py
+-rw-r--r--  1 username  staff   631 Jul  2 07:28 greetings.py
+-rw-r--r--  1 username  staff  1702 Jul  5 11:59 rock-paper-scissors.py
+-rw-r--r--  1 username  staff  1226 Jul  8 10:30 tip-calculator.py
+
+````
+
+Here you can type in ``code. .`` to see if you have visual studio code inside or use nano or vim to open the file.
+
+Now here comes the fun part. It's time to run the script, using ``python3 file_name.py`` to run the program. 
+
+( Hint: You can use the tab to auto-complete ;) )
+
+````
+userName@user-computer learn_python % python3 fizzbuzz.py
+1
+2
+3
+Fizz
+4
+5
+Buzz
+6
+Fizz
+7
+8
+9
+Fizz
+10
+Buzz
+11
+12
+Fizz
+13
+14
+15
+FizzBuzz
+
+````
+
+Finally, the last step is to exit the program; if anything unexpected happens. You can close the terminal by pressing ctrl+c or closing your terminal session.
+
+To remove the folder, you have to jump out of the learn python folder using the ``$ cd ..`` command, then type ``$ rm -rf ./learn_python to`` remove the folder from your system. Or locate the file inside your system. Right-click and move to your trash.
+
+If anything goes wrong, please let me know. 
 
 ## S.M.A.R.T Goals
 
