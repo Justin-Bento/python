@@ -20,9 +20,9 @@ import json
 def introduction():
   print("Hello Welcome To Bot-World!")
   name = input("Can I ask you for your name?")
-  print("Nice to meet you", name)
+  print(f"Nice to meet you {name}")
   time.sleep(0.400)
-  print("Bot: What can I get for you today? ", name)
+  print(f"Bot: What can I get for you today? {name}")
 introduction()
 
 def customer():
