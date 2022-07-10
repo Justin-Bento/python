@@ -241,7 +241,7 @@
       "sides": "Fries or Salad"
     },
     {
-      "id": 1,
+      "id": 10,
       "product": "Fresh Sea Smelts & Fries",
       "price": 11.95,
       "sides": "Fries or Salad"
@@ -314,23 +314,23 @@
       "price": 8.25
     },
     {
-      "id": 2,
+      "id": 3,
       "product": "Greek Salad",
       "price": 8.25
     },
     {
-      "id": 2,
+      "id": 4,
       "product": "Crab Salad over Salad",
       "price": 10.95
     },
     {
-      "id": 2,
+      "id": 5,
       "product": "Coleslaw",
       "price": 3.00,
       "size": "small"
     },
     {
-      "id": 2,
+      "id": 6,
       "product": "Coleslaw",
       "price": 4.25,
       "size": "large"
