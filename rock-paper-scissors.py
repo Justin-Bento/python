@@ -25,7 +25,7 @@ def game_logic():
 
   while player == False:
     # If a player option types in Rock, Paper or Scissors this logic will determin who wins or looses if a user types in anything else the loop will close.
-    player = input("Rock, Paper, Scissors?")
+    player = input("Rock, Paper, Scissors? ")
     if player == computer:
         print("Tie!")
     elif player == "Rock":
