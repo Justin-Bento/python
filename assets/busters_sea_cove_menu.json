@@ -1,5 +1,5 @@
-[
-  "house_favourites", [
+{
+  "house_favourites": [
     {
       "id": 1,
       "price": 15.95 ,
@@ -31,7 +31,7 @@
       "sides": "Fries or Salad"
     }
   ],
-  "off_the_grill", [
+  "off_the_grill": [
     {
       "id": 1,
       "price": 13.95 ,
@@ -93,7 +93,7 @@
       "sides": "Fries or Salad"
     }
   ],
-  "Sandwiches & Po_Boys", [ 
+  "sandwiches_and_poboys": [ 
     {
       "id": 1,
       "title": "Grilled Calamari",
@@ -185,7 +185,7 @@
       "sides": "Fries or Salad"
     }
   ],
-  "Fish Fry", [
+  "fish_fry": [
     {
       "id": 1,
       "title": "Halibut & Chips",
@@ -247,7 +247,7 @@
       "sides": "Fries or Salad"
     }
   ],
-  "Soups", [ 
+  "soups": [ 
     {
       "id": 1,
       "title": "New England Clam Chowder",
@@ -285,7 +285,7 @@
       "size": "large"
     }
   ],
-  "OwnTheirOwn", [
+  "on_their_own": [
     {
       "id": 1,
       "title": "Fresh Cut Fries",
@@ -302,7 +302,7 @@
       "price": 11.95
     }
   ],
-  "Salads", [
+  "salads": [
     {
       "id": 1,
       "title": "Buster's House Salad",
@@ -336,4 +336,4 @@
       "size": "large"
     }
   ]
-]
+}
