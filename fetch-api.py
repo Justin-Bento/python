@@ -4,13 +4,13 @@
  Display a error message if data is not found if the data is found display a success message.
  Allow the user to input specific infromation reguaring the data set.
 """
-# Imported urllib request modle and json modle to request and .
-import urllib.request, json
+import requests
 
-# Created a variable called url to grab the url infromation.
-url = "https://randomuser.me/api/?results=1"
+res = requests.get('https://randomuser.me/api')
 
-# Created a response varirable to request the url to be read in a string format.
-response = urllib.request.urlopen(url)
-data = json.loads(response.read())
-print (data)
+if res.status_code == 200:
+  print('Successful connection')
+  print(res.json())
+else:
+  print('No connection')
+
