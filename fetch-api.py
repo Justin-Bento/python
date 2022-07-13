@@ -29,6 +29,6 @@ class user:
   age = res.json()['results'][0]['dob']['age']
   gender = res.json()['results'][0]['gender']
 
-print(f'Hi. My name is {user.first_name} {user.last_name} and I am {user.age} years old {user.gender}.')
+print(f'Hi. My name is {user.first_name} {user.last_name}, and I am {user.age} years old {user.gender}.')
 
 print(' ')
