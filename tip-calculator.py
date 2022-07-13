@@ -31,7 +31,6 @@ results = json.loads(data)
 def main():
     global options
     options = [
-      "title"
       f"[1] {str(results['house_favourites'][0]['title'])}",
       f"[2] {str(results['house_favourites'][1]['title'])}",
       f"[3] {str(results['house_favourites'][2]['title'])}",
