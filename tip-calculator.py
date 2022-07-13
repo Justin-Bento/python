@@ -97,7 +97,13 @@ def main():
     global user_options
     menu_entry_index = terminal_menu.show()
     user_options = options[menu_entry_index]
-    print(f"You have selected {user_options}!")
+
+    if user_options == " ":
+      print("Sorry can you try again?")
+    elif user_options in options:
+      print(f"You ordered {user_options}! Your total would be")
+    else:
+      print("Have a nice day. :)")
 
 if __name__ == "__main__":
     main()
