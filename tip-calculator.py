@@ -10,25 +10,37 @@
  - [] Exit program.
  """
 
-# imported timer module to sleep on final greeting
+# imported timer, json and Simple Terminal modules
 import time
 import json
 from simple_term_menu import TerminalMenu
 
-def introduction():
+# Function that greets customers.
+def greetings():
+  # Warm greeting to store.
   print("Hello Welcome To Bot-World!")
+
+  # Askes for your name to make things personal.
   name = input("Can I ask you for your name?")
   print(f"Nice to meet you {name}")
+
+  # Wait a while for orders.
   time.sleep(0.400)
+
+  # Asks customer what they would like to order.
   print(f"Bot: What can I get for you today? {name}")
   print("Customer: Nice to meet you too Bot. Could I get? ")
-introduction()
 
+greetings()
+
+# Fetch local json file that holds busters sea cove menu.
 with open('assets/busters_sea_cove_menu.json', 'r') as myfile:
     data=myfile.read()
 results = json.loads(data)
 
+# Function that displays a terminal menu.
 def main():
+    # list of options inside the menu.
     options = [
       f"{str(results['house_favourites'][0]['title'])}",
       f"{str(results['house_favourites'][1]['title'])}",
@@ -92,11 +104,16 @@ def main():
       f"{str(results['salads'][5]['title'])}",
       f" ",
     ]
+
+    # title for the temrinial menu.
     terminal_menu = TerminalMenu(options, title="Busters Sea Cove Menu")
+
+    # creates a global variable that collects a single selection.
     global user_options
     menu_entry_index = terminal_menu.show()
     user_options = options[menu_entry_index]
 
+    # Ensures a user only selects option inside main option menu.
     if user_options == " ":
       print("Sorry can you try again?")
     elif user_options in options:
