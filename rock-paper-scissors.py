@@ -1,5 +1,5 @@
 """
-- [x] Random function: to generate rock, paper, or scissors. 
+- [x] Random function: to generate rock, paper, or scissors.
 - [x] Valid function: to check the validity of the move.
 - [x] Result function: to declare the winner of the round.
 - [] Scorekeeper: to keep track of the score.
@@ -10,7 +10,7 @@
 from random import randint
 
 def game_logic():
-  
+
   # Created a list of options that a computer and user can play.
   options = ["Rock", "Paper", "Scissors"]
 
