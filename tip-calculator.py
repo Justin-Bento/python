@@ -13,9 +13,7 @@
 # imported timer module to sleep on final greeting
 import time
 import json
-
-# Opening JSON file
-# f = open('data.json')
+from simple_term_menu import TerminalMenu
 
 def introduction():
   print("Hello Welcome To Bot-World!")
@@ -23,9 +21,28 @@ def introduction():
   print(f"Nice to meet you {name}")
   time.sleep(0.400)
   print(f"Bot: What can I get for you today? {name}")
+  print("Customer: Nice to meet you too Bot. Could I get? ")
 introduction()
 
-def customer():
-  print("Customer: Nice to meet you too Bot. ")
-  oreder = input("Customer: Could I get? ")
-customer()
+
+def main():
+    options = [
+      '[0] apples', 
+      '[1] peaches', 
+      '[2] pears', 
+      '[3] plums', 
+      '[4] cherries', 
+      '[5] grapes', 
+      '[6] blueberries', 
+      '[7] cranberries', 
+      '[8] strawberries', 
+      '[9] raspberries',
+    ]
+    global user_options
+    terminal_menu = TerminalMenu(options)
+    menu_entry_index = terminal_menu.show()
+    user_options = options[menu_entry_index]
+    print(f"You have selected {user_options}!")
+
+if __name__ == "__main__":
+    main()
