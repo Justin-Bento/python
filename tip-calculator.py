@@ -29,7 +29,6 @@ with open('assets/busters_sea_cove_menu.json', 'r') as myfile:
 results = json.loads(data)
 
 def main():
-    global options
     options = [
       f"{str(results['house_favourites'][0]['title'])}",
       f"{str(results['house_favourites'][1]['title'])}",
