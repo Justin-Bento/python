@@ -24,23 +24,22 @@ def introduction():
   print("Customer: Nice to meet you too Bot. Could I get? ")
 introduction()
 
+with open('assets/busters_sea_cove_menu.json', 'r') as myfile:
+    data=myfile.read()
+results = json.loads(data)
 
 def main():
     global options
     options = [
-      '[0] apples', 
-      '[1] peaches', 
-      '[2] pears', 
-      '[3] plums', 
-      '[4] cherries', 
-      '[5] grapes', 
-      '[6] blueberries', 
-      '[7] cranberries', 
-      '[8] strawberries', 
-      '[9] raspberries',
+      "title"
+      f"[1] {str(results['house_favourites'][0]['title'])}",
+      f"[2] {str(results['house_favourites'][1]['title'])}",
+      f"[3] {str(results['house_favourites'][2]['title'])}",
+      f"[4] {str(results['house_favourites'][3]['title'])}",
+      f"[5] {str(results['house_favourites'][4]['title'])}",
     ]
+    terminal_menu = TerminalMenu(options, title="House Favourites")
     global user_options
-    terminal_menu = TerminalMenu(options)
     menu_entry_index = terminal_menu.show()
     user_options = options[menu_entry_index]
     print(f"You have selected {user_options}!")
