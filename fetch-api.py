@@ -13,6 +13,4 @@ url = "https://randomuser.me/api/?results=1"
 # Created a response varirable to request the url to be read in a string format.
 response = urllib.request.urlopen(url)
 data = json.loads(response.read())
-
-# Print the fetch rersponse and display the data for 1 result. 
 print (data)
