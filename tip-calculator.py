@@ -1,7 +1,7 @@
 """
  - [x] Create a generic greeting to welcome the customer.
  - [x] Make an array of items for the shop.
- - [] Display a terminal menu for customer to make a decision so they don't have to type in anything. If the decision is making is too long quit program.
+ - [x] Display a terminal menu for customer to make a decision so they don't have to type in anything. If the decision is making is too long quit program.
  - [] Mention the price and ask how would the customer like to pay. only accept intergers or floats.
  - [] Wait to see how the customer would like to pay and then include the total after tax.
  - [] Create a function to calculate the customers cash amount after paying.
@@ -26,6 +26,7 @@ introduction()
 
 
 def main():
+    global options
     options = [
       '[0] apples', 
       '[1] peaches', 
