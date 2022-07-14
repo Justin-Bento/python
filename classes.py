@@ -5,3 +5,7 @@
     Allow the user to input various enter infromation for a new smartphone.
     Allow the user to rmeove input various enter infromation for a new smartphone.
 """
+
+# Smartphone class will collect and store properties inside a phone.
+class Smartphone:
+    pass
