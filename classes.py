@@ -5,13 +5,18 @@
     Allow the user to input various enter infromation for a new person.
     Allow the user to rmeove input various enter infromation for a new person.
 """
-
 # person class will collect and store properties inside a phone.
-class person:
-    def __init__(self, name, age, sex, nat):
+class Person:
+    def __init__(self, name, sex, nationality, age=18):
         self.name = name
         self.age = age
         self.sex = sex
-        self.nat = nat
-    def collect_data(self):
-        input('Enter personal infromation: ')
+        self.nationality = nationality
+    def get_name(self):
+        return self.name 
+    def get_age(self):
+        return self.age 
+    def get_gender(self):
+        return self.sex 
+    def get_nationality(self):
+        return self.nationality 
