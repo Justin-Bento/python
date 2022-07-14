@@ -224,11 +224,6 @@ def main():
     # Ensures a user only selects option inside main option menu.
     print(f"One {customer_selection} for {name}!")
 
-    if customer_selection in options:
-      print(f"The price for {customer_selection} is {ResturantPrice[0]}")
-    else:
-      print(f"Non")
-
 
 if __name__ == "__main__":
     main()
