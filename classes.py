@@ -23,5 +23,4 @@ class Person:
         
 active_users = Person("Justin", "male", "Canada", 24)
 
-print(f"Hi, my name is {active_users.get_name()}.")
-print(f"I am a {active_users.get_age()} {active_users.get_gender()} born in {active_users.get_nationality()}")
+print(f"Hi, my name is {active_users.get_name()}. I am a {active_users.get_age()} {active_users.get_gender()} born in {active_users.get_nationality()}")
