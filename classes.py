@@ -8,4 +8,11 @@
 
 # Smartphone class will collect and store properties inside a phone.
 class Smartphone:
-    pass
+    def __init__(self, display, battery, processor, storage, RAM, camera, sensors):
+        self.display = display
+        self.battrey = battrey
+        self.processor = processor
+        self.storage = storage
+        self.RAM = RAM
+        self.camera = camera
+        self.sensors = sensors
