@@ -20,8 +20,10 @@ def greetings():
   # Warm greeting to store.
   print("Hello Welcome To Bot-World!")
 
+  global name 
+
   # Askes for your name to make things personal.
-  name = input("Can I ask you for your name?")
+  name = input("Can I ask you for your name? ")
   print(f"Nice to meet you {name}")
 
   # Wait a while for orders.
@@ -102,17 +104,18 @@ def main():
     terminal_menu = TerminalMenu(options, title="Busters Sea Cove Menu")
 
     # creates a global variable that collects a single selection.
-    global user_options
+    global customer_selection
     menu_entry_index = terminal_menu.show()
-    user_options = options[menu_entry_index]
+    customer_selection = options[menu_entry_index]
 
     # Ensures a user only selects option inside main option menu.
-    if user_options == " ":
-      print("Sorry can you try again?")
-    elif user_options in options:
-      print(f"You ordered {user_options}! Your total would be")
+    print(f"One {customer_selection} for {name}!")
+
+    if customer_selection in options:
+      print(f"The price for {customer_selection} is {str(results['house_favourites'][0]['price'])}")
     else:
-      print("Have a nice day. :)")
+      print(f"Non")
+
 
 if __name__ == "__main__":
     main()
