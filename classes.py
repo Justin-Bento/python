@@ -20,3 +20,5 @@ class Person:
         return self.sex 
     def get_nationality(self):
         return self.nationality 
+        
+active_users = Person("Justin", "male", "Canada", 24)
