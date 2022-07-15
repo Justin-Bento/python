@@ -11,6 +11,7 @@
  """
 
 # imported timer, json and Simple Terminal modules
+from math import prod
 import time
 import json
 from simple_term_menu import TerminalMenu
@@ -216,8 +217,12 @@ def main():
     menu_entry_index = terminal_menu.show()
     customer_selection = options[menu_entry_index]
 
+    def sales_tax(product, price):
+      return print( f" Your subtotal price for {product} is {float(price) * float(1.13)}" ) 
+
     # Ensures a user only selects option inside main option menu.
     print(f"One {customer_selection} for {user_name}!")
+    print(f"The overall total comes to {sales_tax(customer_selection, ResturantPrice[0])}!")
 
 
 if __name__ == "__main__":
