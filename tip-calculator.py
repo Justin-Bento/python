@@ -32,7 +32,7 @@ print("Customer: Nice to meet you too Bot. Could I get? ")
 
 # Fetch local json file that holds busters sea cove menu.
 with open('assets/busters_sea_cove_menu.json', 'r') as myfile:
-    data=myfile.read()
+    data = myfile.read()
 results = json.loads(data)
 
 ResturantTitle = [
