@@ -15,25 +15,22 @@ import time
 import json
 from simple_term_menu import TerminalMenu
 
-# Function that greets customers.
-def greetings():
-  # Warm greeting to store.
-  print("Hello Welcome To Bot-World!")
+# Warm greeting to store.
+print("Hello Welcome To Bot-World!")
 
-  global name 
+global name
 
-  # Askes for your name to make things personal.
-  name = input("Can I ask you for your name? ")
-  print(f"Nice to meet you {name}")
+# Askes for your name to make things personal.
+name = input("Can I ask you for your name? ")
+print(f"Nice to meet you {name}")
 
-  # Wait a while for orders.
-  time.sleep(0.400)
+# Wait a while for orders.
+time.sleep(0.400)
 
-  # Asks customer what they would like to order.
-  print(f"Bot: What can I get for you today? {name}")
-  print("Customer: Nice to meet you too Bot. Could I get? ")
+# Asks customer what they would like to order.
+print(f"Bot: What can I get for you today? {name}")
+print("Customer: Nice to meet you too Bot. Could I get? ")
 
-greetings()
 
 # Fetch local json file that holds busters sea cove menu.
 with open('assets/busters_sea_cove_menu.json', 'r') as myfile:
