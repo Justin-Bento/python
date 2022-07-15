@@ -21,6 +21,11 @@ class Person:
     def get_nationality(self):
         return self.nationality 
         
-active_users = Person("Justin", "male", "Canada", 24)
+active_users = Person("Lucy Stephens", "woman", "Canadian", 24)
 
-print(f"Hi, my name is {active_users.get_name()}. I am a {active_users.get_age()} {active_users.get_gender()} born in {active_users.get_nationality()}")
+p_name = active_users.get_name()
+p_age = active_users.get_age()
+p_gender = active_users.get_gender()
+p_nationality = active_users.get_nationality()
+
+print(f"Hi, my name is {p_name}. I am a {p_age} year old {p_gender} born in {p_nationality}")
