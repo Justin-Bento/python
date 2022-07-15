@@ -15,22 +15,20 @@ import time
 import json
 from simple_term_menu import TerminalMenu
 
+
 # Warm greeting to store.
 print("Hello Welcome To Bot-World!")
 
-global name
-
 # Askes for your name to make things personal.
-name = input("Can I ask you for your name? ")
-print(f"Nice to meet you {name}")
+user_name = input("Can I ask you for your name? ")
+print(f"Nice to meet you {user_name}")
 
 # Wait a while for orders.
 time.sleep(0.400)
 
 # Asks customer what they would like to order.
-print(f"Bot: What can I get for you today? {name}")
+print(f"Bot: What can I get for you today? {user_name}")
 print("Customer: Nice to meet you too Bot. Could I get? ")
-
 
 # Fetch local json file that holds busters sea cove menu.
 with open('assets/busters_sea_cove_menu.json', 'r') as myfile:
@@ -219,7 +217,7 @@ def main():
     customer_selection = options[menu_entry_index]
 
     # Ensures a user only selects option inside main option menu.
-    print(f"One {customer_selection} for {name}!")
+    print(f"One {customer_selection} for {user_name}!")
 
 
 if __name__ == "__main__":
