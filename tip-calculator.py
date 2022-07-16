@@ -218,11 +218,11 @@ def main():
     customer_selection = options[menu_entry_index]
 
     def sales_tax(product, price):
-      return print( f" Your subtotal price for {product} is {float(price) * float(1.13)}" ) 
+      return print( f"Bot: Your new total comes to {product} is {float(price) * float(1.13)}" ) 
 
-    # Ensures a user only selects option inside main option menu.
-    print(f"One {customer_selection} for {user_name}!")
-    print(f"The overall total comes to {sales_tax(customer_selection, ResturantPrice[0])}!")
+    # Says the product a user selected and outputs the new price after tax.
+    print(f"Bot: One {customer_selection} for {user_name}!")
+    sales_tax(customer_selection, ResturantPrice[0])
 
 
 if __name__ == "__main__":
