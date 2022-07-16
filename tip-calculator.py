@@ -224,6 +224,25 @@ def main():
     print(f"Bot: One {customer_selection} for {user_name}!")
     sales_tax(customer_selection, ResturantPrice[0])
 
+    # Wait for asking payment.
+    time.sleep(0.800)
+
+    print(f"Bot: How would you like to pay?")
+
+    payment = [
+        "Credit",
+        "Debit",
+        "Cash",
+    ]
+
+    # title for the temrinial menu.
+    terminal_menu = TerminalMenu(payment, title="Busters Sea Cove Menu")
+
+    # creates a global variable that collects a single selection.
+    menu_entry_index_payment = terminal_menu.show()
+    customer_selection_payment = payment[menu_entry_index]
+
+
 
 if __name__ == "__main__":
     main()
