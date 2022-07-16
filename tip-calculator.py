@@ -2,8 +2,8 @@
  - [x] Create a generic greeting to welcome the customer.
  - [x] Make an array of items for the shop.
  - [x] Display a terminal menu for customer to make a decision so they don't have to type in anything. If the decision is making is too long quit program.
- - [] Mention the price and ask how would the customer like to pay. only accept intergers or floats.
- - [] Wait to see how the customer would like to pay and then include the total after tax.
+ - [x] Mention the price and ask how would the customer like to pay. only accept intergers or floats.
+ - [x] Wait to see how the customer would like to pay and then include the total after tax.
  - [] Create a function to calculate the customers cash amount after paying.
  - [] Ask if they would like to include a tip. -- If they do give a percentage and include a new price, if not move onto next step.
  - [] Make a generic greeting to the customer for purchasing at store.
@@ -211,9 +211,6 @@ def main():
 
     # title for the temrinial menu.
     terminal_menu = TerminalMenu(options, title="Busters Sea Cove Menu")
-
-    # creates a global variable that collects a single selection.
-
     menu_entry_index = terminal_menu.show()
     customer_selection = options[menu_entry_index]
 
@@ -222,27 +219,23 @@ def main():
 
     # Says the product a user selected and outputs the new price after tax.
     print(f"Bot: One {customer_selection} for {user_name}!")
-    sales_tax(customer_selection, ResturantPrice[0])
 
     # Wait for asking payment.
     time.sleep(0.800)
 
-    print(f"Bot: How would you like to pay?")
+    # list of payment options inside the menu
+    payment_options = [ "Credit", "Debit", "Cash" ]
 
-    payment = [
-        "Credit",
-        "Debit",
-        "Cash",
-    ]
+    # Created a new menu with the title.
+    terminal_menu_payment = TerminalMenu(payment_options, title="How Would you like to pay?")
+    
+    # added show command to update payment.
+    menu_entry_index_payment = terminal_menu_payment.show()
 
-    # title for the temrinial menu.
-    terminal_menu = TerminalMenu(payment, title="Busters Sea Cove Menu")
-
-    # creates a global variable that collects a single selection.
-    menu_entry_index_payment = terminal_menu.show()
-    customer_selection_payment = payment[menu_entry_index]
-
-
+    # added a selection to grab user selection 
+    customer_selection_payment = payment_options[menu_entry_index_payment]
+         
+    print(f"you selected {customer_selection_payment}")
 
 if __name__ == "__main__":
     main()
