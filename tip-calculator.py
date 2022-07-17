@@ -237,9 +237,20 @@ def main():
          
     print(f"you selected {customer_selection_payment}")
 
-    if customer_selection_payment == payment_options[0] or payment_options[1]:
+    if customer_selection_payment == payment_options[0]:
+        print(f"Bot: You selected {customer_selection_payment}. :)")
+        time.sleep(0.800)
+        print(f"Bot: Your {customer_selection_payment} transaction was successful. :)")
         time.sleep(0.800)
         print(f"Bot: Thank you for ordering at Bot World. :)")
+    elif customer_selection_payment == payment_options[1]:
+        print(f"Bot: You selected {customer_selection_payment}. :)")
+        time.sleep(0.800)
+        print(f"Bot: Your {customer_selection_payment} transaction was successful. :)")
+        time.sleep(0.800)
+        print(f"Bot: Thank you for ordering at Bot World. :)")
+    elif customer_selection_payment == payment_options[2]:
+        pass
     else:
         pass
 
