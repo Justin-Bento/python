@@ -237,5 +237,11 @@ def main():
          
     print(f"you selected {customer_selection_payment}")
 
+    if customer_selection_payment == payment_options[1] or payment_options[2]:
+        time.sleep(0.800)
+        print(f"Bot: Thank you for ordering at Bot World. :)")
+    else:
+        pass
+
 if __name__ == "__main__":
     main()
