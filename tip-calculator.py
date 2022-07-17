@@ -234,21 +234,19 @@ def main():
 
     # added a selection to grab user selection 
     customer_selection_payment = payment_options[menu_entry_index_payment]
-         
-    print(f"you selected {customer_selection_payment}")
+
+    # Card transaction would even out the payment and the time simulates a customer entering details.
+    def card_transaction():
+        print(f"Bot: You selected {customer_selection_payment}. :)")
+        time.sleep(0.800)
+        print(f"Bot: Your {customer_selection_payment} transaction was successful. :)")
+        time.sleep(0.800)
+        print(f"Bot: Thank you for ordering at Bot World. :)")
 
     if customer_selection_payment == payment_options[0]:
-        print(f"Bot: You selected {customer_selection_payment}. :)")
-        time.sleep(0.800)
-        print(f"Bot: Your {customer_selection_payment} transaction was successful. :)")
-        time.sleep(0.800)
-        print(f"Bot: Thank you for ordering at Bot World. :)")
+        card_transaction()
     elif customer_selection_payment == payment_options[1]:
-        print(f"Bot: You selected {customer_selection_payment}. :)")
-        time.sleep(0.800)
-        print(f"Bot: Your {customer_selection_payment} transaction was successful. :)")
-        time.sleep(0.800)
-        print(f"Bot: Thank you for ordering at Bot World. :)")
+        card_transaction()
     elif customer_selection_payment == payment_options[2]:
         pass
     else:
