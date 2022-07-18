@@ -7,8 +7,8 @@
  - [x] Create a function to calculate the customers cash amount after paying.
  - [x] Display the final price before and after tax.
  - [x] Even out transaction if customer pays by card.
- - [] Retun additional change during the transaction if customer pays by cash.
- - [] Create a generic greeting to thank the customer.
+ - [x] Retun additional change during the transaction if customer pays by cash.
+ - [x] Create a generic greeting to thank the customer.
  """
 
 # imported timer, json and Simple Terminal modules
