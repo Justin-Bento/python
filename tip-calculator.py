@@ -4,10 +4,11 @@
  - [x] Display a terminal menu for customer to make a decision so they don't have to type in anything. If the decision is making is too long quit program.
  - [x] Mention the price and ask how would the customer like to pay. only accept intergers or floats.
  - [x] Wait to see how the customer would like to pay and then include the total after tax.
- - [] Create a function to calculate the customers cash amount after paying.
- - [] Ask if they would like to include a tip. -- If they do give a percentage and include a new price, if not move onto next step.
- - [] Make a generic greeting to the customer for purchasing at store.
- - [] Exit program.
+ - [x] Create a function to calculate the customers cash amount after paying.
+ - [x] Display the final price before and after tax.
+ - [x] Even out transaction if customer pays by card.
+ - [] Retun additional change during the transaction if customer pays by cash.
+ - [] Create a generic greeting to thank the customer.
  """
 
 # imported timer, json and Simple Terminal modules
