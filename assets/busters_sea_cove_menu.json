@@ -80,102 +80,102 @@
   {
     "id": 14,
     "price": 15.95,
-    "title": "Red Snapper Fillet",
+    "title": "Mahi Mahi",
     "sides": "Fries or Salad"
   },
   {
     "id": 15,
     "price": 15.95,
-    "title": "Rainbow Trout",
+    "title": "Red Snapper Fillet",
     "sides": "Fries or Salad"
   },
   {
     "id": 16,
-    "title": "Grilled Calamari",
+    "title": "Rainbow Trout",
     "price": 13.95,
     "sides": "Fries or Salad"
   },
   {
     "id": 17,
-    "title": "Grilled Calamari",
+    "title": "Halibut on a Bun",
     "price": 13.95,
     "sides": "Fries or Salad"
   },
   {
     "id": 18,
-    "title": "Grilled Calamari",
+    "title": "Haddock on a Bun",
     "price": 13.95,
     "sides": "Fries or Salad"
   },
   {
     "id": 19,
-    "title": "Grilled Calamari",
+    "title": "Boston Blue on a Bun",
     "price": 13.95,
     "sides": "Fries or Salad"
   },
   {
     "id": 20,
-    "title": "Grilled Calamari",
+    "title": "Grilled Salmon on a Bun",
     "price": 13.95,
     "sides": "Fries or Salad"
   },
   {
     "id": 21,
-    "title": "Grilled Calamari",
+    "title": "Grilled Tilapia on a Bun",
     "price": 13.95,
     "sides": "Fries or Salad"
   },
   {
     "id": 22,
-    "title": "Grilled Calamari",
+    "title": "Grilled Trout on a Bun",
     "price": 13.95,
     "sides": "Fries or Salad"
   },
   {
     "id": 23,
-    "title": "Grilled Calamari",
+    "title": "Grilled Mahi Mahi on a Bun",
     "price": 13.95,
     "sides": "Fries or Salad"
   },
   {
     "id": 24,
-    "title": "Grilled Calamari",
+    "title": "Grilled Red Snapper Fillet on a Bun",
     "price": 13.95,
     "sides": "Fries or Salad"
   },
   {
     "id": 25,
-    "title": "Grilled Calamari",
+    "title": "Grilled Swordfish Sandwich",
     "price": 13.95,
     "sides": "Fries or Salad"
   },
   {
     "id": 26,
-    "title": "Grilled Calamari",
+    "title": "Shrimp Po'Boy",
     "price": 13.95,
     "sides": "Fries or Salad"
   },
   {
     "id": 27,
-    "title": "Grilled Calamari",
+    "title": "Fried Calamari Po'Boy",
     "price": 13.95,
     "sides": "Fries or Salad"
   },
   {
     "id": 28,
-    "title": "Grilled Calamari",
+    "title": "Octopus Po'Boy",
     "price": 13.95,
     "sides": "Fries or Salad"
   },
   {
     "id": 29,
-    "title": "Grilled Calamari",
+    "title": "100% Crab Cake Sandwich",
     "price": 13.95,
     "sides": "Fries or Salad"
   },
   {
     "id": 30,
-    "title": "Grilled Calamari",
+    "title": "Tuna Melt Sandwich",
     "price": 13.95,
     "sides": "Fries or Salad"
   },
@@ -241,37 +241,37 @@
   },
   {
     "id": 41,
-    "title": "New England Clam Chowder",
+    "title": "New England Clam Chowder - Small (10oz)",
     "price": 5.00,
     "size": "small"
   },
   {
     "id": 42,
-    "title": "New England Clam Chowder",
+    "title": "New England Clam Chowder - Large (16oz)",
     "price": 6.50,
     "size": "large"
   },
   {
     "id": 43,
-    "title": "Lobster Bisque",
+    "title": "Lobster Bisque - Small (10oz)",
     "price": 5.50,
     "size": "small"
   },
   {
     "id": 44,
-    "title": "Lobster Bisque",
+    "title": "Lobster Bisque - Large (16oz)",
     "price": 7.50,
     "size": "large"
   },
   {
     "id": 45,
-    "title": "Chicken Shrimp Gumbo",
+    "title": "Chicken Shrimp Gumbo - Small (10oz)",
     "price": 5.00,
     "size": "small"
   },
   {
     "id": 46,
-    "title": "Chicken Shrimp Gumbo",
+    "title": "Chicken Shrimp Gumbo - Large (16oz)",
     "price": 6.50,
     "size": "large"
   },
@@ -312,13 +312,13 @@
   },
   {
     "id": 54,
-    "title": "Coleslaw",
+    "title": "Coleslaw - Small",
     "price": 3.00,
     "size": "small"
   },
   {
     "id": 55,
-    "title": "Coleslaw",
+    "title": "Coleslaw - Large",
     "price": 4.25,
     "size": "large"
   }
