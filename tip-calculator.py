@@ -150,7 +150,7 @@ resturant_price = [
 ]
 
 # Loops and return the info inside restutrant_title array.
-def resturant_menu():
+def resturant_menu_title():
    for items in range(52):
        resturant_title[items]
    return resturant_title
@@ -158,7 +158,7 @@ def resturant_menu():
 # Function that displays a terminal menu.
 def main():
     # list of options inside the menu.
-    options = resturant_menu()
+    options = resturant_menu_title()
 
     # title for the temrinial menu.
     terminal_menu = TerminalMenu(options, title="Busters Sea Cove Menu")
