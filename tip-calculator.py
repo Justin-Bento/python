@@ -207,7 +207,7 @@ def main():
             print( f"Bot: Thanks for ordering at Bot World" )
 
     # No transaction that takes place for 10s the program will quit.
-    def no_transaction():
+    def lengthy_transaction():
         pass
 
     if customer_selection_payment == payment_options[0]:
@@ -217,7 +217,7 @@ def main():
     elif customer_selection_payment == payment_options[2]:
         cash_transaction()
     else:
-        no_transaction()
+        lengthy_transaction()
 
 if __name__ == "__main__":
     main()
