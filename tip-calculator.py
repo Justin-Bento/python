@@ -149,65 +149,15 @@ ResturantPrice = [
     f"{str(results['salads'][5]['price'])}",
 ]
 
+def resturant_menu():
+   for items in range(0, 52):
+       ResturantTitle[items]
+   return ResturantTitle
+
 # Function that displays a terminal menu.
 def main():
     # list of options inside the menu.
-    options = [
-      ResturantTitle[0],
-      ResturantTitle[1],
-      ResturantTitle[2],
-      ResturantTitle[3],
-      ResturantTitle[4],
-      ResturantTitle[5],
-      ResturantTitle[6],
-      ResturantTitle[7],
-      ResturantTitle[8],
-      ResturantTitle[9],
-      ResturantTitle[10],
-      ResturantTitle[11],
-      ResturantTitle[12],
-      ResturantTitle[13],
-      ResturantTitle[14],
-      ResturantTitle[15],
-      ResturantTitle[16],
-      ResturantTitle[17],
-      ResturantTitle[18],
-      ResturantTitle[19],
-      ResturantTitle[20],
-      ResturantTitle[21],
-      ResturantTitle[22],
-      ResturantTitle[23],
-      ResturantTitle[24],
-      ResturantTitle[25],
-      ResturantTitle[26],
-      ResturantTitle[27],
-      ResturantTitle[28],
-      ResturantTitle[29],
-      ResturantTitle[30],
-      ResturantTitle[31],
-      ResturantTitle[32],
-      ResturantTitle[33],
-      ResturantTitle[34],
-      ResturantTitle[35],
-      ResturantTitle[36],
-      ResturantTitle[37],
-      ResturantTitle[38],
-      ResturantTitle[39],
-      ResturantTitle[40],
-      ResturantTitle[41],
-      ResturantTitle[42],
-      ResturantTitle[43],
-      ResturantTitle[44],
-      ResturantTitle[45],
-      ResturantTitle[46],
-      ResturantTitle[47],
-      ResturantTitle[48],
-      ResturantTitle[49],
-      ResturantTitle[50],
-      ResturantTitle[51],
-      ResturantTitle[52],
-      ResturantTitle[52],
-    ]
+    options = resturant_menu()
 
     # title for the temrinial menu.
     terminal_menu = TerminalMenu(options, title="Busters Sea Cove Menu")
