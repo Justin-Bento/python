@@ -12,7 +12,6 @@
  """
 
 # imported timer, json and Simple Terminal modules
-from math import prod
 import time
 import json
 from simple_term_menu import TerminalMenu
