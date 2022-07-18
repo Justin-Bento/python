@@ -36,7 +36,7 @@ with open('assets/busters_sea_cove_menu.json', 'r') as myfile:
     data = myfile.read()
 results = json.loads(data)
 
-ResturantTitle = [
+resturant_title = [
     str(results['house_favourites'][0]['title']),
     str(results['house_favourites'][1]['title']),
     str(results['house_favourites'][2]['title']),
@@ -92,7 +92,7 @@ ResturantTitle = [
     str(results['salads'][4]['title']),
     str(results['salads'][5]['title']),
 ]
-ResturantPrice = [
+resturant_price = [
     str(results['house_favourites'][0]['price']),
     str(results['house_favourites'][1]['price']),
     str(results['house_favourites'][2]['price']),
@@ -151,8 +151,8 @@ ResturantPrice = [
 
 def resturant_menu():
    for items in range(0, 52):
-       ResturantTitle[items]
-   return ResturantTitle
+       resturant_title[items]
+   return resturant_title
 
 # Function that displays a terminal menu.
 def main():
@@ -198,10 +198,10 @@ def main():
         print(f"Bot: You selected {customer_selection_payment}.")
         time.sleep(0.800)
         cash_amount = float(input("Enter number : "))
-        if float( cash_amount ) < float( ResturantPrice[0] ):
+        if float( cash_amount ) < float( resturant_price[0] ):
             return cash_transaction()
         else:
-            grand_total = cash_amount - float( ResturantPrice[0] )
+            grand_total = cash_amount - float( resturant_price[0] )
             print( f"Your Final Amount is {grand_total}" )
             print( f"Bot: Thanks for ordering at Bot World" )
 
