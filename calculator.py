@@ -11,14 +11,14 @@
   - [] Check if user wants another calculation and close if answer is no.
 """
 
-def addition(first_num, second_num):
-  return first_num + second_num
+def addition(first, second):
+  return first + second
 
-def subtraction(first_num, second_num):
-  return first_num - second_num
+def subtraction(first, second):
+  return first - second
 
-def division(first_num, second_num):
-  return first_num / second_num
+def division(first, second):
+  return first / second
 
-def multiplication(first_num, second_num):
-  return first_num * second_num
+def multiplication(first, second):
+  return first * second
