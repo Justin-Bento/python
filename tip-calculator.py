@@ -243,14 +243,30 @@ def main():
         time.sleep(0.800)
         print(f"Bot: Thank you for ordering at Bot World. :)")
 
+    # Cash transaction handles the amount of cash given and returns the exact amount.
+    def cash_transaction():
+        print(f"Bot: You selected {customer_selection_payment}.")
+        time.sleep(0.800)
+        cash_amount = float(input("Enter number : "))
+        if float( cash_amount ) < float( ResturantPrice[0] ):
+            return cash_transaction()
+        else:
+            grand_total = cash_amount - float( ResturantPrice[0] )
+            print( f"Your Final Amount is {grand_total}" )
+            print( f"Bot: Thanks for ordering at Bot World" )
+
+    # No transaction that takes place for 10s the program will quit.
+    def no_transaction():
+        pass
+
     if customer_selection_payment == payment_options[0]:
         card_transaction()
     elif customer_selection_payment == payment_options[1]:
         card_transaction()
     elif customer_selection_payment == payment_options[2]:
-        pass
+        cash_transaction()
     else:
-        pass
+        no_transaction()
 
 if __name__ == "__main__":
     main()
