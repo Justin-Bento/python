@@ -150,6 +150,7 @@ resturant_price = [
     str(results[52]['price']),
 ]
 
+# Loops and return the info inside restutrant_title array.
 def resturant_menu():
    for items in range(52):
        resturant_title[items]
@@ -165,6 +166,7 @@ def main():
     menu_entry_index = terminal_menu.show()
     customer_selection = options[menu_entry_index]
 
+    # Calculates the produt price's after HST tax 13%.
     def sales_tax(product, price):
       return print( f"Bot: Your new total comes to {product} is {float(price) * float(1.13)}" ) 
 
@@ -186,7 +188,7 @@ def main():
     # added a selection to grab user selection 
     customer_selection_payment = payment_options[menu_entry_index_payment]
 
-    # Card transaction would even out the payment and the time simulates a customer entering details.
+    # Card transaction would even out the payment.
     def card_transaction():
         print(f"Bot: You selected {customer_selection_payment}. :)")
         time.sleep(0.800)
@@ -194,7 +196,7 @@ def main():
         time.sleep(0.800)
         print(f"Bot: Thank you for ordering at Bot World. :)")
 
-    # Cash transaction handles the amount of cash given and returns the exact amount.
+    # Card transaction would return the cash and output final payment.
     def cash_transaction():
         print(f"Bot: You selected {customer_selection_payment}.")
         time.sleep(0.800)
@@ -210,12 +212,16 @@ def main():
     def lengthy_transaction():
         pass
 
+    # If a customer pays credit transaction will even out.
     if customer_selection_payment == payment_options[0]:
         card_transaction()
+    # If a customer pays debit transaction will even out.
     elif customer_selection_payment == payment_options[1]:
         card_transaction()
+    # If a customer pays cash it will give cash back.
     elif customer_selection_payment == payment_options[2]:
         cash_transaction()
+    # Else if the transaction takes too long the program will end.
     else:
         lengthy_transaction()
 
