@@ -1,339 +1,325 @@
-{
-  "house_favourites": [
-    {
-      "id": 1,
-      "price": 15.95 ,
-      "title": "East Coast Lobster Roll",
-      "sides": "Fries or Salad"
-    },
-    {
-      "id": 2,
-      "price": 14.95,
-      "title": "Handmade Crab Cakes",
-      "sides": "Fries or Salad"
-    },
-    {
-      "id": 3,
-      "price": 15.95,
-      "title": "Seafood Orzo Pasta",
-      "sides": "Shrimp, Scallops, Mussels, Calamari"
-    },
-    {
-      "id": 4,
-      "price": 14.95 ,
-      "title": "Shrimp in Rose Sauce",
-      "sides": "Basmati Rice"
-    },
-    {
-      "id": 5,
-      "price": 13.95 ,
-      "title": "Steamed Mussels in Tomato Wine Sauce",
-      "sides": "Fries or Salad"
-    }
-  ],
-  "off_the_grill": [
-    {
-      "id": 1,
-      "price": 13.95 ,
-      "title": "Grilled Calamari",
-      "sides": "Fries or Salad"
-    },
-    {
-      "id": 2,
-      "price": 14.95 ,
-      "title": "BBQ Octopus",
-      "sides": "Fries or Salad"
-    },
-    {
-      "id": 3,
-      "price": 15.95,
-      "title": "BBQ Jumbo Tiger Shrimp",
-      "sides": "Fries or Salad"
-    },
-    {
-      "id": 4,
-      "price": 13.95,
-      "title": "Sashimi Grade Swordfish",
-      "sides": "Fries or Salad"
-    },
-    {
-      "id": 5,
-      "price": 16.95,
-      "title": "Grilled Halibut Steak",
-      "sides": "Fries or Salad"
-    },
-    {
-      "id": 6,
-      "price": 13.95,
-      "title": "Atlantic Salmon",
-      "sides": "Fries or Salad"
-    },
-    {
-      "id": 7,
-      "price": 13.95,
-      "title": "Fresh Tilapia",
-      "sides": "Fries or Salad"
-    },
-    {
-      "id": 8,
-      "price": 15.95,
-      "title": "Grilled Sardines",
-      "sides": "Fries or Salad"
-    },
-    {
-      "id": 9,
-      "price": 15.95,
-      "title": "Red Snapper Fillet",
-      "sides": "Fries or Salad"
-    },
-    {
-      "id": 9,
-      "price": 15.95,
-      "title": "Rainbow Trout",
-      "sides": "Fries or Salad"
-    }
-  ],
-  "sandwiches_and_poboys": [ 
-    {
-      "id": 1,
-      "title": "Grilled Calamari",
-      "price": 13.95,
-      "sides": "Fries or Salad"
-    },
-    {
-      "id": 2,
-      "title": "Grilled Calamari",
-      "price": 13.95,
-      "sides": "Fries or Salad"
-    },
-    {
-      "id": 3,
-      "title": "Grilled Calamari",
-      "price": 13.95,
-      "sides": "Fries or Salad"
-    },
-    {
-      "id": 4,
-      "title": "Grilled Calamari",
-      "price": 13.95,
-      "sides": "Fries or Salad"
-    },
-    {
-      "id": 5,
-      "title": "Grilled Calamari",
-      "price": 13.95,
-      "sides": "Fries or Salad"
-    },
-    {
-      "id": 6,
-      "title": "Grilled Calamari",
-      "price": 13.95,
-      "sides": "Fries or Salad"
-    },
-    {
-      "id": 7,
-      "title": "Grilled Calamari",
-      "price": 13.95,
-      "sides": "Fries or Salad"
-    },
-    {
-      "id": 8,
-      "title": "Grilled Calamari",
-      "price": 13.95,
-      "sides": "Fries or Salad"
-    },
-    {
-      "id": 9,
-      "title": "Grilled Calamari",
-      "price": 13.95,
-      "sides": "Fries or Salad"
-    },
-    {
-      "id": 10,
-      "title": "Grilled Calamari",
-      "price": 13.95,
-      "sides": "Fries or Salad"
-    },
-    {
-      "id": 11,
-      "title": "Grilled Calamari",
-      "price": 13.95,
-      "sides": "Fries or Salad"
-    },
-    {
-      "id": 12,
-      "title": "Grilled Calamari",
-      "price": 13.95,
-      "sides": "Fries or Salad"
-    },
-    {
-      "id": 13,
-      "title": "Grilled Calamari",
-      "price": 13.95,
-      "sides": "Fries or Salad"
-    },
-    {
-      "id": 14,
-      "title": "Grilled Calamari",
-      "price": 13.95,
-      "sides": "Fries or Salad"
-    },
-    {
-      "id": 15,
-      "title": "Grilled Calamari",
-      "price": 13.95,
-      "sides": "Fries or Salad"
-    }
-  ],
-  "fish_fry": [
-    {
-      "id": 1,
-      "title": "Halibut & Chips",
-      "price": 14.95,
-      "sides": "Fries or Salad"
-    },
-    {
-      "id": 2,
-      "title": "Haddock & Chips",
-      "price": 12.95,
-      "sides": "Fries or Salad"
-    },
-    {
-      "id": 3,
-      "title": "Boston Blue & Chips",
-      "price": 10.95,
-      "sides": "Fries or Salad"
-    },
-    {
-      "id": 4,
-      "title": "Spring Fried Shrimp",
-      "price": 13.95,
-      "sides": "Fries or Salad"
-    },
-    {
-      "id": 5,
-      "title": "Calamari Only",
-      "price": 9.95,
-      "sides": "Fries or Salad"
-    },
-    {
-      "id": 6,
-      "title": "Calamari & Fries or Salad",
-      "price": 11.95,
-      "sides": "Fries or Salad"
-    },
-    {
-      "id": 7,
-      "title": "Coconut Jumbo Shrimp with Fries or Salad",
-      "price": 14.95,
-      "sides": "Fries or Salad"
-    },
-    {
-      "id": 8,
-      "title": "Clam Strips & Fries",
-      "price": 9.95,
-      "sides": "Fries or Salad"
-    },
-    {
-      "id": 9,
-      "title": "Double Clam Strips Only",
-      "price": 9.95,
-      "sides": "Fries or Salad"
-    },
-    {
-      "id": 10,
-      "title": "Fresh Sea Smelts & Fries",
-      "price": 11.95,
-      "sides": "Fries or Salad"
-    }
-  ],
-  "soups": [ 
-    {
-      "id": 1,
-      "title": "New England Clam Chowder",
-      "price": 5.00,
-      "size": "small"
-    },
-    {
-      "id": 2,
-      "title": "New England Clam Chowder",
-      "price": 6.50,
-      "size": "large"
-    },
-    {
-      "id": 3,
-      "title": "Lobster Bisque",
-      "price": 5.50,
-      "size": "small"
-    },
-    {
-      "id": 4,
-      "title": "Lobster Bisque",
-      "price": 7.50,
-      "size": "large"
-    },
-    {
-      "id": 5,
-      "title": "Chicken Shrimp Gumbo",
-      "price": 5.00,
-      "size": "small"
-    },
-    {
-      "id": 6,
-      "title": "Chicken Shrimp Gumbo",
-      "price": 6.50,
-      "size": "large"
-    }
-  ],
-  "on_their_own": [
-    {
-      "id": 1,
-      "title": "Fresh Cut Fries",
-      "price": 4.50
-    },
-    {
-      "id": 2,
-      "title": "Onion Rings",
-      "price": 5.00
-    },
-    {
-      "id": 3,
-      "title": "Chicken Tenders & Fries",
-      "price": 11.95
-    }
-  ],
-  "salads": [
-    {
-      "id": 1,
-      "title": "Buster's House Salad",
-      "price": 7.95
-    },
-    {
-      "id": 2,
-      "title": "Caesar Salad",
-      "price": 8.25
-    },
-    {
-      "id": 3,
-      "title": "Greek Salad",
-      "price": 8.25
-    },
-    {
-      "id": 4,
-      "title": "Crab Salad over Salad",
-      "price": 10.95
-    },
-    {
-      "id": 5,
-      "title": "Coleslaw",
-      "price": 3.00,
-      "size": "small"
-    },
-    {
-      "id": 6,
-      "title": "Coleslaw",
-      "price": 4.25,
-      "size": "large"
-    }
-  ]
-}
+[
+  {
+    "id": 1,
+    "price": 15.95 ,
+    "title": "East Coast Lobster Roll",
+    "sides": "Fries or Salad"
+  },
+  {
+    "id": 2,
+    "price": 14.95,
+    "title": "Handmade Crab Cakes",
+    "sides": "Fries or Salad"
+  },
+  {
+    "id": 3,
+    "price": 15.95,
+    "title": "Seafood Orzo Pasta",
+    "sides": "Shrimp, Scallops, Mussels, Calamari"
+  },
+  {
+    "id": 4,
+    "price": 14.95 ,
+    "title": "Shrimp in Rose Sauce",
+    "sides": "Basmati Rice"
+  },
+  {
+    "id": 5,
+    "price": 13.95 ,
+    "title": "Steamed Mussels in Tomato Wine Sauce",
+    "sides": "Fries or Salad"
+  },
+  {
+    "id": 6,
+    "price": 13.95 ,
+    "title": "Grilled Calamari",
+    "sides": "Fries or Salad"
+  },
+  {
+    "id": 7,
+    "price": 14.95 ,
+    "title": "BBQ Octopus",
+    "sides": "Fries or Salad"
+  },
+  {
+    "id": 8,
+    "price": 15.95,
+    "title": "BBQ Jumbo Tiger Shrimp",
+    "sides": "Fries or Salad"
+  },
+  {
+    "id": 9,
+    "price": 13.95,
+    "title": "Sashimi Grade Swordfish",
+    "sides": "Fries or Salad"
+  },
+  {
+    "id": 10,
+    "price": 16.95,
+    "title": "Grilled Halibut Steak",
+    "sides": "Fries or Salad"
+  },
+  {
+    "id": 11,
+    "price": 13.95,
+    "title": "Atlantic Salmon",
+    "sides": "Fries or Salad"
+  },
+  {
+    "id": 12,
+    "price": 13.95,
+    "title": "Fresh Tilapia",
+    "sides": "Fries or Salad"
+  },
+  {
+    "id": 13,
+    "price": 15.95,
+    "title": "Grilled Sardines",
+    "sides": "Fries or Salad"
+  },
+  {
+    "id": 14,
+    "price": 15.95,
+    "title": "Red Snapper Fillet",
+    "sides": "Fries or Salad"
+  },
+  {
+    "id": 15,
+    "price": 15.95,
+    "title": "Rainbow Trout",
+    "sides": "Fries or Salad"
+  },
+  {
+    "id": 16,
+    "title": "Grilled Calamari",
+    "price": 13.95,
+    "sides": "Fries or Salad"
+  },
+  {
+    "id": 17,
+    "title": "Grilled Calamari",
+    "price": 13.95,
+    "sides": "Fries or Salad"
+  },
+  {
+    "id": 18,
+    "title": "Grilled Calamari",
+    "price": 13.95,
+    "sides": "Fries or Salad"
+  },
+  {
+    "id": 19,
+    "title": "Grilled Calamari",
+    "price": 13.95,
+    "sides": "Fries or Salad"
+  },
+  {
+    "id": 20,
+    "title": "Grilled Calamari",
+    "price": 13.95,
+    "sides": "Fries or Salad"
+  },
+  {
+    "id": 21,
+    "title": "Grilled Calamari",
+    "price": 13.95,
+    "sides": "Fries or Salad"
+  },
+  {
+    "id": 22,
+    "title": "Grilled Calamari",
+    "price": 13.95,
+    "sides": "Fries or Salad"
+  },
+  {
+    "id": 23,
+    "title": "Grilled Calamari",
+    "price": 13.95,
+    "sides": "Fries or Salad"
+  },
+  {
+    "id": 24,
+    "title": "Grilled Calamari",
+    "price": 13.95,
+    "sides": "Fries or Salad"
+  },
+  {
+    "id": 25,
+    "title": "Grilled Calamari",
+    "price": 13.95,
+    "sides": "Fries or Salad"
+  },
+  {
+    "id": 26,
+    "title": "Grilled Calamari",
+    "price": 13.95,
+    "sides": "Fries or Salad"
+  },
+  {
+    "id": 27,
+    "title": "Grilled Calamari",
+    "price": 13.95,
+    "sides": "Fries or Salad"
+  },
+  {
+    "id": 28,
+    "title": "Grilled Calamari",
+    "price": 13.95,
+    "sides": "Fries or Salad"
+  },
+  {
+    "id": 29,
+    "title": "Grilled Calamari",
+    "price": 13.95,
+    "sides": "Fries or Salad"
+  },
+  {
+    "id": 30,
+    "title": "Grilled Calamari",
+    "price": 13.95,
+    "sides": "Fries or Salad"
+  },
+  {
+    "id": 31,
+    "title": "Halibut & Chips",
+    "price": 14.95,
+    "sides": "Fries or Salad"
+  },
+  {
+    "id": 32,
+    "title": "Haddock & Chips",
+    "price": 12.95,
+    "sides": "Fries or Salad"
+  },
+  {
+    "id": 33,
+    "title": "Boston Blue & Chips",
+    "price": 10.95,
+    "sides": "Fries or Salad"
+  },
+  {
+    "id": 34,
+    "title": "Spring Fried Shrimp",
+    "price": 13.95,
+    "sides": "Fries or Salad"
+  },
+  {
+    "id": 35,
+    "title": "Calamari Only",
+    "price": 9.95,
+    "sides": "Fries or Salad"
+  },
+  {
+    "id": 36,
+    "title": "Calamari & Fries or Salad",
+    "price": 11.95,
+    "sides": "Fries or Salad"
+  },
+  {
+    "id": 37,
+    "title": "Coconut Jumbo Shrimp with Fries or Salad",
+    "price": 14.95,
+    "sides": "Fries or Salad"
+  },
+  {
+    "id": 38,
+    "title": "Clam Strips & Fries",
+    "price": 9.95,
+    "sides": "Fries or Salad"
+  },
+  {
+    "id": 39,
+    "title": "Double Clam Strips Only",
+    "price": 9.95,
+    "sides": "Fries or Salad"
+  },
+  {
+    "id": 40,
+    "title": "Fresh Sea Smelts & Fries",
+    "price": 11.95,
+    "sides": "Fries or Salad"
+  },
+  {
+    "id": 41,
+    "title": "New England Clam Chowder",
+    "price": 5.00,
+    "size": "small"
+  },
+  {
+    "id": 42,
+    "title": "New England Clam Chowder",
+    "price": 6.50,
+    "size": "large"
+  },
+  {
+    "id": 43,
+    "title": "Lobster Bisque",
+    "price": 5.50,
+    "size": "small"
+  },
+  {
+    "id": 44,
+    "title": "Lobster Bisque",
+    "price": 7.50,
+    "size": "large"
+  },
+  {
+    "id": 45,
+    "title": "Chicken Shrimp Gumbo",
+    "price": 5.00,
+    "size": "small"
+  },
+  {
+    "id": 46,
+    "title": "Chicken Shrimp Gumbo",
+    "price": 6.50,
+    "size": "large"
+  },
+  {
+    "id": 47,
+    "title": "Fresh Cut Fries",
+    "price": 4.50
+  },
+  {
+    "id": 48,
+    "title": "Onion Rings",
+    "price": 5.00
+  },
+  {
+    "id": 49,
+    "title": "Chicken Tenders & Fries",
+    "price": 11.95
+  },
+  {
+    "id": 50,
+    "title": "Buster's House Salad",
+    "price": 7.95
+  },
+  {
+    "id": 51,
+    "title": "Caesar Salad",
+    "price": 8.25
+  },
+  {
+    "id": 52,
+    "title": "Greek Salad",
+    "price": 8.25
+  },
+  {
+    "id": 53,
+    "title": "Crab Salad over Salad",
+    "price": 10.95
+  },
+  {
+    "id": 54,
+    "title": "Coleslaw",
+    "price": 3.00,
+    "size": "small"
+  },
+  {
+    "id": 55,
+    "title": "Coleslaw",
+    "price": 4.25,
+    "size": "large"
+  }
+]
