@@ -23,9 +23,9 @@ class Person:
         
 active_users = Person("Lucy Stephens", "woman", "Canadian", 24)
 
-p_name = active_users.get_name()
-p_age = active_users.get_age()
-p_gender = active_users.get_gender()
-p_nationality = active_users.get_nationality()
+name = active_users.get_name()
+age = active_users.get_age()
+gender = active_users.get_gender()
+nationality = active_users.get_nationality()
 
-print(f"Hi, my name is {p_name}. I am a {p_age} year old {p_nationality}. My sex is a {p_gender}. ")
+print(f"Hi, my name is {name}. I am a {age} year old {nationality}. My sex is a {gender}. ")
