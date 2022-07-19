@@ -32,25 +32,35 @@ def multiplication(first, second):
 # While the condition is met it checks the choice is one of the four options.
 while True:
   
-  print("Welcome to Bot World Calulator")
+  # Intoduces user to what the program is supposed to be.
+  print("Welcome to Bot World Calculator")
   
+  # Stops the next stantement from being used in 0.5s.
   time.sleep(0.500)
 
-  print("Please Select Math Operator")
+  # Shows users what infromation you can put in.
+  print("Please Select Math Operator from 1 to 4")
 
+  # Collects a number the user selected .
   user_choice = int( input("Enter a number 1 / 2 /3 / 4 / 5: ")  )
 
+  # If the users enters 1 it will do addition.
   if user_choice == 1:
     print("You have selected addition")
+  # If the users enters 2 it will do subtraction.
   elif user_choice == 2:
     print("You have selected subtraction")
+  # If the users enters 3 it will do division.
   elif user_choice == 3:
     print("You have selected division")
+  # If the users enters 4 it will do multiplication.
   elif user_choice == 4:
     print("You have selected multiplication")
+  # If the users enters 5 it will close the loop.
   elif user_choice == 5:
     break
 
+  # Closes the loop.
   break
 
 else: 
