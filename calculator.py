@@ -22,3 +22,8 @@ def division(first, second):
 
 def multiplication(first, second):
   return first * second
+
+while True:
+  pass
+else: 
+  print("Invalid Input")
