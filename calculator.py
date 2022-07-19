@@ -8,7 +8,7 @@
   - [x] Take input from the user for an list of numbers.
   - [x] Ask the user to Select the operation.
   - [x] Print out calulation.
-  - [] Check if user wants another calculation and close if answer is no.
+  - [x] Check if user wants another calculation and close if answer is no.
 """
 
 import time
