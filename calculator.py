@@ -44,21 +44,35 @@ while True:
   # Collects a number the user selected .
   user_choice = int( input("Enter a number 1 / 2 /3 / 4 / 5: ")  )
 
-  # If the users enters 1 it will do addition.
-  if user_choice == 1:
-    print("You have selected addition")
-  # If the users enters 2 it will do subtraction.
-  elif user_choice == 2:
-    print("You have selected subtraction")
-  # If the users enters 3 it will do division.
-  elif user_choice == 3:
-    print("You have selected division")
-  # If the users enters 4 it will do multiplication.
-  elif user_choice == 4:
-    print("You have selected multiplication")
-  # If the users enters 5 it will close the loop.
-  elif user_choice == 5:
-    break
+  if user_choice in ( 1 , 2 , 3 , 4):
+
+    first_number = float( input("Enter a first number: ")  )
+    second_number = float( input("Enter a second number: ")  )
+
+    # If the users enters 1 it will do addition.
+    if user_choice == 1:
+      print("You have selected addition")
+      print( f"{ first_number } + { second_number } = { addition(first_number, second_number) }" )
+
+    # If the users enters 2 it will do subtraction.
+    elif user_choice == 2:
+      print("You have selected subtraction")
+      print( f"{ first_number } - { second_number } = { subtraction(first_number, second_number) }" )
+
+    # If the users enters 3 it will do division.
+    elif user_choice == 3:
+      print("You have selected division")
+      print( f"{ first_number } / { second_number } = { division(first_number, second_number) }" )
+
+    # If the users enters 4 it will do multiplication.
+    elif user_choice == 4:
+      print("You have selected multiplication")
+      print( f"{ first_number } * { second_number } = { multiplication(first_number, second_number) }" )
+
+    # If the users enters 5 it will close the loop.
+    elif user_choice == 5:
+      print("Have a great day")
+      break
 
   # Closes the loop.
   break
