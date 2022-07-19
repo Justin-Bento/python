@@ -37,6 +37,20 @@ while True:
   time.sleep(0.500)
 
   print("Please Select Math Operator")
+
+  user_choice = int( input("Enter a number 1 / 2 /3 / 4 / 5: ")  )
+
+  if user_choice == 1:
+    print("You have selected addition")
+  elif user_choice == 2:
+    print("You have selected subtraction")
+  elif user_choice == 3:
+    print("You have selected division")
+  elif user_choice == 4:
+    print("You have selected multiplication")
+  elif user_choice == 5:
+    break
+
   break
 
 else: 
