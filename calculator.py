@@ -75,7 +75,9 @@ while True:
     break
 
   # Closes the loop.
-  break
+  calculation = input("Another calculation? (y/n): ")
+  if calculation == "n":
+    break
 
 else: 
   print("Invalid Input")
