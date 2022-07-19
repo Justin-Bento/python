@@ -42,7 +42,7 @@ while True:
   print("Please Select Math Operator from 1 to 4")
 
   # Collects a number the user selected .
-  user_choice = int( input("Enter a number between 1 - 4: ")  )
+  user_choice = int( input("Enter a number from 1 to 4: ")  )
 
   if user_choice in ( 1 , 2 , 3 , 4):
 
