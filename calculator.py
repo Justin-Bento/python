@@ -11,6 +11,8 @@
   - [] Check if user wants another calculation and close if answer is no.
 """
 
+import time
+
 # This function returns two args for addition.
 def addition(first, second):
   return first + second
@@ -29,6 +31,13 @@ def multiplication(first, second):
 
 # While the condition is met it checks the choice is one of the four options.
 while True:
-  pass
+  
+  print("Welcome to Bot World Calulator")
+  
+  time.sleep(0.500)
+
+  print("Please Select Math Operator")
+  break
+
 else: 
   print("Invalid Input")
