@@ -11,19 +11,19 @@
   - [] Check if user wants another calculation and close if answer is no.
 """
 
-# Function that deals with enters two values for addition.
+# This function returns two args for addition.
 def addition(first, second):
   return first + second
 
-# Function that deals with enters two values for subtraction.
+# This function returns two args for subtraction.
 def subtraction(first, second):
   return first - second
 
-# Function that deals with enters two values for division.
+# This function returns two args for division.
 def division(first, second):
   return first / second
 
-# Function that deals with enters two values for multiplication.
+# This function returns two args for multiplication.
 def multiplication(first, second):
   return first * second
 
