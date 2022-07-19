@@ -28,4 +28,4 @@ p_age = active_users.get_age()
 p_gender = active_users.get_gender()
 p_nationality = active_users.get_nationality()
 
-print(f"Hi, my name is {p_name}. I am a {p_age} year old {p_gender} born in {p_nationality}")
+print(f"Hi, my name is {p_name}. I am a {p_age} year old {p_nationality}. My sex is a {p_gender}. ")
