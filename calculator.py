@@ -69,10 +69,10 @@ while True:
       print("You have selected multiplication")
       print( f"{ first_number } * { second_number } = { multiplication(first_number, second_number) }" )
 
-    # If the users enters 5 it will close the loop.
-    elif user_choice == 5:
-      print("Have a great day")
-      break
+  # If the users enters 5 it will close the loop.
+  if user_choice in ( 5, 6, 7, 8, 9, 0 ):
+    print("Have a great day")
+    break
 
   # Closes the loop.
   break
