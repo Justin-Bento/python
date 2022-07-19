@@ -11,18 +11,23 @@
   - [] Check if user wants another calculation and close if answer is no.
 """
 
+# Function that deals with enters two values for addition.
 def addition(first, second):
   return first + second
 
+# Function that deals with enters two values for subtraction.
 def subtraction(first, second):
   return first - second
 
+# Function that deals with enters two values for division.
 def division(first, second):
   return first / second
 
+# Function that deals with enters two values for multiplication.
 def multiplication(first, second):
   return first * second
 
+# While the condition is met it checks the choice is one of the four options.
 while True:
   pass
 else: 
