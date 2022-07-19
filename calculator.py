@@ -5,9 +5,9 @@
        - [x] Subtract.
        - [x] Multiplication.
        - [x] Divide.
-  - [] Take input from the user for an list of numbers.
-  - [] Ask the user to Select the operation.
-  - [] Print out calulation.
+  - [x] Take input from the user for an list of numbers.
+  - [x] Ask the user to Select the operation.
+  - [x] Print out calulation.
   - [] Check if user wants another calculation and close if answer is no.
 """
 
