@@ -18,3 +18,18 @@
        - [] if user says y repeat interaction.
        - [] if user says no break and close the program.
 """
+
+def countdown(timer):
+     pass
+
+def system_notification(title, message, action):
+     pass
+
+def break_intervals_short(short_break):
+     pass
+
+def break_intervals_long(long_break):
+     pass
+
+def work_intervals(sessions):
+     pass
