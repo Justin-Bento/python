@@ -1,7 +1,7 @@
 """
-  - [] Create a variablle that holds a range variable.
-  - [] For loop that prints out the desired range.
-  - [] add a template literal for string.
+  - [x] Create a variablle that holds a range variable.
+  - [x] For loop that prints out the desired range.
+  - [x] add a template literal for string.
 """
 
 challange__90_days = range(1, 91)
