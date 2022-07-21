@@ -14,3 +14,4 @@ def countdown(seconds):
         seconds -= 1
     print("stop")
 
+countdown(70)
