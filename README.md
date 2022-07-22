@@ -1,85 +1,128 @@
-# Learning Python
 
-This folder contains my learning journey in learning Python. 
+# Project - Learning Python
 
-## Setup Guide
+This project is to help me learn the Python to eventually be able to create website with the Django Project. On top of that This folder contains my learning journey in learning Python from freecodecamp, and other online resources. This means my knowldege in python will be self-directed and 
 
-Your first step is ensuring you have python installed on your system and check your current version. You can enter in the code below. It should look something like this.
+## Installation
 
-````
-userName@user-computer learn_python % python3 --version
-Python 3.9.13
-````
+Installing Python3 onto your system for macos, windows, and linux. I'm going to link you to tutorials however I will include some things that have helped me.
 
-Your next step would be to download this project and place it in a memorable folder such as your desktop or inside your document folder.
+**Installing Python3 On Windows**
 
-Now your file is open I want you to search for your systems terminal app and open it. Once it is open, navigate to the learn python folder using
+If you have two seperate drives onto your system. Please install python3 on the C: drive as it will make everything else easier for you when using powershell. If you're using wsl2 like I am, python3 should be installed on ubuntu. However you can always check by opening your terminal, clicking the down arrow and selecgin 
 
-````
-  for mac or linux machines
-  cd ./learn_python. 
-  cd ./Documents/learn_python.
-  cd ./Desktop/learn_python.
-  
-  for windows machines
-  cd .\learn_python. 
-  cd .\Documents\learn_python.
-  cd .\Desktop\learn_python.
-````
+**Installing Python3 On Macos**
 
-Now, this step is optional. But I want you to list all the files inside the learn python folder using ``ls`` cmd to find and showcase all the python scripts inside the folder like below.
+You would want to install homebrew and replace the system python3 language for a more modern brew python3 script.
 
-````
--rw-r--r--  1 username  staff  2465 Jul  8 10:38 README.md
-drwxr-xr-x  3 username  staff    96 Jul  8 18:50 assets
--rw-r--r--  1 username  staff  1665 Jul  4 12:10 discount.py
--rw-r--r--  1 username  staff  1011 Jun 22 13:09 fizzbuzz.py
--rw-r--r--  1 username  staff   631 Jul  2 07:28 greetings.py
--rw-r--r--  1 username  staff  1702 Jul  5 11:59 rock-paper-scissors.py
--rw-r--r--  1 username  staff  1226 Jul  8 10:30 tip-calculator.py
 
-````
+**Installing Python3 On Linux**
 
-Here you can type in ``code. .`` to see if you have visual studio code inside or use nano or vim to open the file.
+If you're running Fedora, Arch or Debian. Just run a system upgrade and update, reboot and install / update python3 package.
 
-Now here comes the fun part. It's time to run the script, using ``python3 file_name.py`` to run the program. 
+```
+```
 
-( Hint: You can use the tab to auto-complete ;) )
 
-````
-userName@user-computer learn_python % python3 fizzbuzz.py
-1
-2
-3
-Fizz
-4
-5
-Buzz
-6
-Fizz
-7
-8
-9
-Fizz
-10
-Buzz
-11
-12
-Fizz
-13
-14
-15
-FizzBuzz
+**Verifying Python3 Installation**
 
-````
+Just enter the command below to check if you have python3 installedl. 
 
-Finally, the last step is to exit the program; if anything unexpected happens. You can close the terminal by pressing ctrl+c or closing your terminal session.
+```
+python3 --version
+```
 
-To remove the folder, you have to jump out of the learn python folder using the ``$ cd ..`` command, then type ``$ rm -rf ./learn_python to`` remove the folder from your system. Or locate the file inside your system. Right-click and move to your trash.
+If you have an older version
 
-If anything goes wrong, please let me know. 
+```
+python --version
+```
 
-## S.M.A.R.T Goals
+**Creating Your First Python3 File**
+
+Creating your first python file is easy just type
+
+```bash
+$ cd Documents/
+$ touch file_name.py
+```
+You can use the ls command to list all files inside the folder. Or you can use the find command to search for a specifc script to run.
+
+```bash
+$ ls -l # List files in a list 
+$ $ find ./python/ -name file_name.py # find the file location
+```
+## Run Locally
+
+**Downloading & Extracting The Files**
+
+
+For all systems. Head to Documents in the files App right click and select the Open in Terminal option. Mine looks like as I have my files seperate from my boot drive however most computers would have C: option as the first letter.
+
+```bash
+D:\user\development
+```
+
+You don't want code files inside the root direcotry since you may have a chance of screwing things up. Assuming you have git installed onto your system, I want you to copy the URL and git clone and pase the URL  it inside the development folder. It should look something like this:
+
+```bash
+$ git clone git@github.com:Justin-Bento/python.git
+```
+
+If you don't have git installed. Download the zip file for the project inside the dropdown menu after clicking the code button. What cloning the repository does it extracts files for you without you worrying about missing documents which making it easier to manage when handling  larger documents.
+
+> *Please check if you have python installed.*
+
+**Installing Third Party Packages**
+
+Python3 uses a package manager called pip to install third party extentions. This is important since some files use these extentions to make the life of a developer a little bit easier. Some packages I use include [ package name ]. You can copy and paste the command below to install them.
+
+```bash
+```
+
+Please note if your're using linux you have to have a seperate package installed to use PIP. Each linux distrobution would have a different name but here is what I know for the most popular distrobutions.
+
+```bash
+Arch:
+```
+
+```bash
+Debian:
+```
+
+```bash
+Fedora:
+```
+
+```bash
+Solous:
+```
+
+If you know any other packages please make a new branch of the project and add it in and I'll check things out later.
+
+**Running The Script**
+
+To run a python3 script you need one command and it is;
+
+```bash
+   $ python3 ./file_name.py 
+```
+To run a python script below version3 you need one command and it is;
+
+```bash
+   $ python ./file_name.py 
+```
+
+*please not the file_name represents the atcual file your're trying to run*
+## Running Tests
+
+To run tests, run the following command
+
+```bash
+  comming soon
+```
+
+## 📋 S.M.A.R.T Goals
 
 ### Specific
 
@@ -111,3 +154,14 @@ Here is a list of resources I used when learning how to code in Python. Please l
 * Common Interview Questions = https://www.fullstack.cafe/blog/coding-challenges-interview-questions
 * Automate the borinig stuff = https://automatetheboringstuff.com/
 * Fullstack Pythoon = https://www.fullstackpython.com/
+
+
+## 🚀 About Me
+I'm making full stack application... Using the pools tutorial that is found on django.
+
+Once I finish the base code I will add additional features to the project to help me deepen my knowledge with Django and making a CRUD app.
+
+## Feedback
+
+If you have any feedback when it comes to code style guide or just , please reach out to using the issue pannel. For other business inquires please  email me at fake@fake.com
+
