@@ -1,7 +1,7 @@
 
 # Project - Learning Python
 
-This project is to help me learn the Python to eventually be able to create website with the Django Project. On top of that This folder contains my learning journey in learning Python from freecodecamp, and other online resources. This means my knowldege in python will be self-directed and 
+The learning Python folder is a folder that contains my learning journey with the Python language. Each file represents basic concepts that allow me to get comfortable with the language. My goal for this project is to become comfortable with Python, so I would have a faster learning curve when developing websites within the Django Project framework. My knowledge will come from freecodecamp, w3schools and learnpython.com and other online resources. So one can help me learn the syntax, and the other can help me know the theoretical side of things. You can find different things the more you scroll down. Thanks for listening to me, waffle. 
 
 ## Installation
 
@@ -9,73 +9,71 @@ Installing Python3 onto your system for macos, windows, and linux. I'm going to 
 
 **Installing Python3 On Windows**
 
-If you have two seperate drives onto your system. Please install python3 on the C: drive as it will make everything else easier for you when using powershell. If you're using wsl2 like I am, python3 should be installed on ubuntu. However you can always check by opening your terminal, clicking the down arrow and selecgin 
+Suppose you have two drives in your system. Please, [ download and install python3 ](https://www.python.org/downloads/) on the C: drive. It will make things easy for you when using Powershell. If you're using the Windows Sub System For Linux like I am, you can check the version of python you're running; the package should be installed on Ubuntu. If it's not installed, download this package using this command.
 
-**Installing Python3 On Macos**
-
-You would want to install homebrew and replace the system python3 language for a more modern brew python3 script.
-
-
-**Installing Python3 On Linux**
-
-If you're running Fedora, Arch or Debian. Just run a system upgrade and update, reboot and install / update python3 package.
-
+```bash
+# WSL and Debian or Ubuntu
+$ sudo apt install Python3 -y
 ```
-```
-
 
 **Verifying Python3 Installation**
 
-Just enter the command below to check if you have python3 installedl. 
-
-```
-python3 --version
-```
-
-If you have an older version
-
-```
-python --version
-```
-
-**Creating Your First Python3 File**
-
-Creating your first python file is easy just type
+ Enter the command below to check if you have python3 installed. If you get an error message, that means you did not install python properly and you should try again. Here is a great youtube video that helped me work on it in seperate drives.
 
 ```bash
-$ cd Documents/
-$ touch file_name.py
+# Versions 3 and above
+$ python3 --version
 ```
-You can use the ls command to list all files inside the folder. Or you can use the find command to search for a specifc script to run.
 
 ```bash
-$ ls -l # List files in a list 
-$ $ find ./python/ -name file_name.py # find the file location
+# Versions 2 and below
+$ python --version
 ```
+If you have an output like this. 
+
+```bash
+$ Python 3.10.5
+```
+
+CONGRATULATIONS YOU HAVE SUCCESSFULLY INSTALLEDD PYTHON!
+
+
 ## Run Locally
 
 **Downloading & Extracting The Files**
 
+Always head to the Documents folder inside your system when working on development files. 
 
-For all systems. Head to Documents in the files App right click and select the Open in Terminal option. Mine looks like as I have my files seperate from my boot drive however most computers would have C: option as the first letter.
+IT'S BAD PRACTICE TO USE YOUR ROOT DIRECTORY FOR ANY SYSTEM. 
+
+To get to the Documents folder inside your Windows computer, you can open up the file Files app, head to Documents, right-click the space in files and click the Open in Terminal option inside the menu. Mine looks like I have my files separate from my boot drive; however, most computers would have C: option as the first letter. When you open up the terminal this file type should be similar;
+
+Or you can open up the terminal app and run
+
+Change Direcotry command for powershell. Please use backslash.
+
+```PowerShell
+$ cd .\Documents\
+```
+Change Direcotry command for Bash and Unix. Please use fowardslash.
 
 ```bash
-D:\user\development
+$ cd ./Documents/
 ```
 
-You don't want code files inside the root direcotry since you may have a chance of screwing things up. Assuming you have git installed onto your system, I want you to copy the URL and git clone and pase the URL  it inside the development folder. It should look something like this:
+Then you can either clone the files using this command:
 
 ```bash
 $ git clone git@github.com:Justin-Bento/python.git
 ```
 
-If you don't have git installed. Download the zip file for the project inside the dropdown menu after clicking the code button. What cloning the repository does it extracts files for you without you worrying about missing documents which making it easier to manage when handling  larger documents.
+Or if you don't have git installed. 
 
-> *Please check if you have python installed.*
+Download the zip file for the project inside the dropdown menu after clicking the code button, and cut and past it into the folder of your choice.
 
 **Installing Third Party Packages**
 
-Python3 uses a package manager called pip to install third party extentions. This is important since some files use these extentions to make the life of a developer a little bit easier. Some packages I use include [ package name ]. You can copy and paste the command below to install them.
+Python3 uses a package manager called PIP to install third party extentions. This is important since some files use these extentions to make the life of a developer a little bit easier. Some packages I use include [ package name ]. You can copy and paste the command below to install them.
 
 ```bash
 ```
@@ -102,18 +100,32 @@ If you know any other packages please make a new branch of the project and add i
 
 **Running The Script**
 
-To run a python3 script you need one command and it is;
+To run a python3 script you need one command and it is
 
 ```bash
-   $ python3 ./file_name.py 
+# For version 3 and above;
+$ python3 ./file_name.py 
 ```
-To run a python script below version3 you need one command and it is;
 
 ```bash
-   $ python ./file_name.py 
+# For version 2 and above;
+$ python ./file_name.py 
 ```
 
-*please not the file_name represents the atcual file your're trying to run*
+*please note the ./ is assuming you're already inside the Python folder. if you're not inside the folder in your terminal app run the command like this*
+
+```bash
+# For version 3 and above;
+$ python3 ./python/file_name.py 
+```
+
+```bash
+# For version 2 and above;
+$ python ./python/file_name.py 
+```
+
+Lastly if you're using PowerShell please use backslash.
+
 ## Running Tests
 
 To run tests, run the following command
@@ -143,7 +155,7 @@ The goal of learning Python is to get recognition from people who don't know cod
 
 ### Time-Bound
 
-My start date is 22--06-2022, and I would like to get the fundamentals down within four months which is 22-10-2022. Since the estimated time frame for learning Python is between two to six months.
+My start date is 2022-06-22, and I would like to get the fundamentals down within four months which is 22-10-2022. Since the estimated time frame for learning Python is between two to six months.
 
 ## Resources Used For Learning Python.
 
