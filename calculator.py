@@ -29,12 +29,9 @@ def multiplication(first, second):
 
 # While the condition is met it checks the choice is one of the four options.
 while True:
-  
-  # Intoduces user to what the program is supposed to be.
-  print("Welcome to Bot World Calculator")
 
   # Shows users what infromation you can put in.
-  print("Please Select Math Operator from 1 to 4")
+  print("Please Select Operator: addition, subtraction, division, mulitplication")
 
   # Collects a number the user selected .
   user_choice = int( input("Enter a number from 1 to 4: ")  )
