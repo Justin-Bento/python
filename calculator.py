@@ -11,9 +11,6 @@
   - [x] Check if user wants another calculation and close if answer is no.
 """
 
-# Imported time module to give user time to read.
-import time
-
 # This function returns two args for addition.
 def addition(first, second):
   return first + second
@@ -35,21 +32,12 @@ while True:
   
   # Intoduces user to what the program is supposed to be.
   print("Welcome to Bot World Calculator")
-  
-  # Stops the next stantement from being used in 0.5s.
-  time.sleep(0.500)
 
   # Shows users what infromation you can put in.
   print("Please Select Math Operator from 1 to 4")
-  
-  # Stops the next stantement from being used in 0.5s.
-  time.sleep(0.500)
 
   # Collects a number the user selected .
   user_choice = int( input("Enter a number from 1 to 4: ")  )
-
-    # Stops the next stantement from being used in 0.5s.
-  time.sleep(0.500)
 
   if user_choice in ( 1 , 2 , 3 , 4):
 
@@ -76,16 +64,10 @@ while True:
       print("You have selected multiplication")
       print( f"{ first_number } * { second_number } = { multiplication(first_number, second_number) }" )
 
-  # Stops the next stantement from being used in 0.5s.
-  time.sleep(0.500)
-
   # If the users enters 5 it will close the loop.
   if user_choice in ( 5, 6, 7, 8, 9, 0 ):
     print("Have a great day")
     break
-
-  # Stops the next stantement from being used in 0.5s.
-  time.sleep(0.500)
 
   # Closes the loop if the user selects no.
   calculation = input("Another calculation? (y/n): ")
