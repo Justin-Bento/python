@@ -18,6 +18,7 @@
        - [] if user says y repeat interaction.
        - [] if user says no break and close the program.
 """
+import time 
 
 def countdown(seconds):
     while seconds:
